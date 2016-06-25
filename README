@@ -1,0 +1,16 @@
+# rs_sec
+
+The project illustrates a concept of derivative structures random sampling method.
+The concept is based on spinel example MgAl_{1.0}$Fe_{1.0}O_4. The system has totally
+12870 structures, but only 97 symmetry-equivalent ones (SIC). The presented algorithm
+randomly obtains structures with their symmetries and after proceeses it, with two options
+1) Random sampling without symmetry considerations (simple algorithm).
+2) Random sampling with symmetry consideration (SES algorithm).
+
+Files:
+  rs_spinel.tar.gz - archive with structures and number of symmetries operations for 
+                     each structure.
+  rs_simul.bash    - RS algorithm implementation.
+  rs_stat.bash     - RS algorithm verification program. The program compare probability to
+                     obtain structures with different symmetry for simple random sampling and
+                     RS-SES algorithm.
